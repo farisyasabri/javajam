@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- metadata goes in head - Contains information that describes the web page document -->
+
+	<title>JavaJam House Jobs</title>
+    <link rel="stylesheet" href="stylesheet/javajam.css">
+</head>
+<body>
+<!-- content goes in the body -->
+<div id="wrapper">
+	<header><h1>JavaJam Coffee House</h1></header>
+	
+	<nav>
+        <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="menu.html">Menu</a> </li>
+            <li><a href="music.html">Music</a> </li>
+            <li><a href="jobs.html">Jobs</a> </li>
+    
+        </ul>
+	</nav>
+
+	<main>
+		<h2>Jobs at JavaJam</h2>
+		<p>Want to work at JavaJam? Fill out the form below to start your application. 
+            Required fields are marked with an asterisk(*)
+        </p>
+        
+        <form method="post" action="http://webdevbasics.net/scripts/javajam8.php">        
+        
+        <label for="name">*Name: </label>
+        <input type="text" id="name" name="name" required="required"><br><br>
+
+        <label for="email">*E-mail: </label>
+        <input type="email" id="email" name="email" required="required"><br><br>
+
+        <label for="experience">*Experience: </label>
+        <textarea name="experience" id="expereince" required="required"></textarea><br><br>
+
+        <div>
+            <label for="position">Select job position: </label>
+            <select id="position">
+                <option value="barista">Barista</option>
+                <option value="cleaner">Cleaner</option>
+                <option value="cashier">Cashier</option>
+            </select><br><br>
+        </div>
+
+        <label for="time">Preferred Interview Data and time: </label>
+        <input type="datetime-local" id="time" name="time"><br><br>
+
+        <label for="photo">Upload your photo: </label>
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <input type="submit" value="Apply Now">
+    </form>
+	</main>
+</div>
+</body>
+
+<footer>
+	<small><i><br>Copyright &copy;2021 JavaJam Coffee House<br>
+        <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
+</footer>
+</html>
