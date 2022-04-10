@@ -38,6 +38,7 @@ nav{
     padding-top: 10px;
     float: left;
     width: 200px;
+    
 }
 
 nav a {
@@ -83,10 +84,11 @@ img{
 }
 
 .details{
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 #imgroad{
     float: right;
 }
+
